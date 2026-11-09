@@ -1010,7 +1010,7 @@ String buildMealAiPrompt(MealAiBrief b) {
       ? 'a full day of eating, spread over these meals: $mealList'
       : 'ONE meal only: ${b.mealLabel} (id "${b.mealId}")';
   final lines = <String>[
-    'You are the nutrition assistant of GymMane, an offline fitness app. A program, not a person, will read your reply, so the format below is strict.',
+    'You are the nutrition assistant of beefit, an offline fitness app. A program, not a person, will read your reply, so the format below is strict.',
     '',
     'REQUEST',
     '- I want $what.',

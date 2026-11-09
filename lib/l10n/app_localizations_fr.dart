@@ -1418,7 +1418,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get importHint =>
-      'Choisis une sauvegarde .zip (ou un ancien .json) exportée depuis GymMane. Cela remplace tes données actuelles, médias compris.';
+      'Choisis une sauvegarde .zip (ou un ancien .json) exportée depuis beefit. Cela remplace tes données actuelles, médias compris.';
 
   @override
   String get import => 'Importer';
@@ -1471,7 +1471,7 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get aboutGymmane => 'À propos de GymMane';
+  String get aboutGymmane => 'À propos de beefit';
 
   @override
   String get yourProfile => 'TON PROFIL';
@@ -2079,7 +2079,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get planNothing => 'Aucun exercice de ce fichier ne correspond à ta bibliothèque';
 
   @override
-  String get planFailed => 'Ce fichier n’est pas un programme que GymMane peut lire';
+  String get planFailed => 'Ce fichier n’est pas un programme que beefit peut lire';
 
   @override
   String get routineGroup => 'Groupe';
@@ -2234,7 +2234,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get aiIntro =>
-      'GymMane ne communique jamais directement avec une IA. Tu exportes ta liste d’exercices, tu la colles dans l’assistant que tu utilises déjà, puis tu réimportes sa réponse. Rien ne quitte le téléphone tout seul.';
+      'beefit ne communique jamais directement avec une IA. Tu exportes ta liste d’exercices, tu la colles dans l’assistant que tu utilises déjà, puis tu réimportes sa réponse. Rien ne quitte le téléphone tout seul.';
 
   @override
   String aiMissing(int n) {
@@ -2260,7 +2260,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get awardFirstStepName => 'Premier pas';
 
   @override
-  String get awardFirstStepLine => 'Bienvenue sur GymMane. Celle-ci est offerte.';
+  String get awardFirstStepLine => 'Bienvenue sur beefit. Celle-ci est offerte.';
 
   @override
   String get awardFirstWorkoutName => 'Première séance';
@@ -2864,7 +2864,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String shareMessage(String name) {
-    return '$name: ouvre le fichier avec GymMane pour l\'ajouter.';
+    return '$name: ouvre le fichier avec beefit pour l\'ajouter.';
   }
 
   @override
@@ -2872,7 +2872,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get importPasteHint =>
-      'Colle une routine ici : partagée depuis GymMane, une réponse d\'IA, du JSON ou du CSV.';
+      'Colle une routine ici : partagée depuis beefit, une réponse d\'IA, du JSON ou du CSV.';
 
   @override
   String get pasteAction => 'Coller';
@@ -2905,11 +2905,11 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get nothingToImport => 'Rien à importer ici pour GymMane';
+  String get nothingToImport => 'Rien à importer ici pour beefit';
 
   @override
   String get aiStepCopy =>
-      'Copie la demande. Elle contient ta liste d\'exercices et le format que GymMane lit.';
+      'Copie la demande. Elle contient ta liste d\'exercices et le format que beefit lit.';
 
   @override
   String get aiStepAsk =>
@@ -3059,7 +3059,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get shareIntroBody =>
-      'Envoie-la à ton ou ta partenaire, à un ami ou à ta famille. Ils reçoivent un petit fichier qui s\'ouvre avec GymMane et l\'ajoute en un geste, avec ses séries et ses poids.';
+      'Envoie-la à ton ou ta partenaire, à un ami ou à ta famille. Ils reçoivent un petit fichier qui s\'ouvre avec beefit et l\'ajoute en un geste, avec ses séries et ses poids.';
 
   @override
   String get removedFromRoutine => 'Retiré de la routine';
@@ -3209,7 +3209,7 @@ class AppLocalizationsFr extends AppLocalizations {
       'Lit seulement ton nombre de pas. Ne lit rien d’autre et n’écrit jamais dans Health Connect.';
 
   @override
-  String get stepsInfoLocal => 'Tes pas restent sur ton téléphone. GymMane ne se connecte jamais à internet.';
+  String get stepsInfoLocal => 'Tes pas restent sur ton téléphone. beefit ne se connecte jamais à internet.';
 
   @override
   String get stepsInfoOff => 'Désactivable à tout moment dans les Réglages ou dans Health Connect.';
@@ -4630,7 +4630,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nutritionAboutWhat =>
-      'Une façon simple de noter tes repas, ton eau, tes protéines et tes compléments juste à côté de tes séances. GymMane est d’abord une app de musculation : la nutrition est là pour que tout soit au même endroit, pas pour remplacer une vraie app de régime.';
+      'Une façon simple de noter tes repas, ton eau, tes protéines et tes compléments juste à côté de tes séances. beefit est d’abord une app de musculation : la nutrition est là pour que tout soit au même endroit, pas pour remplacer une vraie app de régime.';
 
   @override
   String get nutritionAboutScanTitle => 'Pas de scanner, jamais';
@@ -4644,7 +4644,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get nutritionAboutLocal =>
-      'Plus de 500 aliments avec photo sont inclus dans l’app. Tu peux ajouter les tiens, changer leurs photos et modifier leurs valeurs. Tout reste sur ton téléphone, comme le reste de GymMane.';
+      'Plus de 500 aliments avec photo sont inclus dans l’app. Tu peux ajouter les tiens, changer leurs photos et modifier leurs valeurs. Tout reste sur ton téléphone, comme le reste de beefit.';
 
   @override
   String get nutritionAboutBetaTitle => 'Encore en bêta';
@@ -4710,7 +4710,7 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get notifSuppTap => 'Tick it off in GymMane once you\'ve taken it.';
+  String get notifSuppTap => 'Tick it off in beefit once you\'ve taken it.';
 
   @override
   String get suppNoneToday => 'Nothing to take today.';
@@ -5601,7 +5601,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get ladderHint =>
-      'Classe les étapes de la plus facile à la plus dure. Quand tu fais 3 séries de 8 deux séances d\'affilée (5 pour les lentes), GymMane te propose la suivante.';
+      'Classe les étapes de la plus facile à la plus dure. Quand tu fais 3 séries de 8 deux séances d\'affilée (5 pour les lentes), beefit te propose la suivante.';
 
   @override
   String get ladderBuiltIn =>
@@ -6580,13 +6580,13 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get supportThanksBody =>
-      'GymMane est gratuit et le restera, sans pub et sans rien de caché.\n\nS’il t’aide à t’entraîner, m’offrir un café me fait plaisir ☕\nEt sinon, pas de souci : une étoile sur GitHub aussi ⭐';
+      'beefit est gratuit et le restera, sans pub et sans rien de caché.\n\nS’il t’aide à t’entraîner, m’offrir un café me fait plaisir ☕\nEt sinon, pas de souci : une étoile sur GitHub aussi ⭐';
 
   @override
   String get perfSetting => 'Performance';
 
   @override
-  String get perfSheetHint => 'How much of your phone GymMane uses. You can change each part below.';
+  String get perfSheetHint => 'How much of your phone beefit uses. You can change each part below.';
 
   @override
   String get perfLite => 'Saver';
@@ -7132,7 +7132,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get autoProgressHint =>
-      'When you start a workout, GymMane fills in the next step for each exercise. With Add reps you add one rep per set up to 12, then the weight goes up and you start again at 8. You can still tune each exercise on its page.';
+      'When you start a workout, beefit fills in the next step for each exercise. With Add reps you add one rep per set up to 12, then the weight goes up and you start again at 8. You can still tune each exercise on its page.';
 
   @override
   String get noteFolders => 'Folders';

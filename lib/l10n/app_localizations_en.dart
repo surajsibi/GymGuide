@@ -1413,7 +1413,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get importHint =>
-      'Choose a .zip (or older .json) backup exported from GymMane. This replaces your current data, media included.';
+      'Choose a .zip (or older .json) backup exported from beefit. This replaces your current data, media included.';
 
   @override
   String get import => 'Import';
@@ -1465,7 +1465,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get aboutGymmane => 'About GymMane';
+  String get aboutGymmane => 'About beefit';
 
   @override
   String get yourProfile => 'YOUR PROFILE';
@@ -2222,7 +2222,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aiIntro =>
-      'GymMane never talks to an AI. You take your exercise list out, you paste it into whatever assistant you already use, and you bring its answer back in. Nothing leaves the phone on its own.';
+      'beefit never talks to an AI. You take your exercise list out, you paste it into whatever assistant you already use, and you bring its answer back in. Nothing leaves the phone on its own.';
 
   @override
   String aiMissing(int n) {
@@ -2248,7 +2248,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get awardFirstStepName => 'First step';
 
   @override
-  String get awardFirstStepLine => 'Welcome to GymMane. This one is on the house.';
+  String get awardFirstStepLine => 'Welcome to beefit. This one is on the house.';
 
   @override
   String get awardFirstWorkoutName => 'First workout';
@@ -2848,14 +2848,14 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String shareMessage(String name) {
-    return '$name: open the file with GymMane to add it.';
+    return '$name: open the file with beefit to add it.';
   }
 
   @override
   String get importRoutines => 'Import routines';
 
   @override
-  String get importPasteHint => 'Paste a routine here: one shared from GymMane, an AI answer, JSON or CSV.';
+  String get importPasteHint => 'Paste a routine here: one shared from beefit, an AI answer, JSON or CSV.';
 
   @override
   String get pasteAction => 'Paste';
@@ -2887,10 +2887,10 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get nothingToImport => 'Nothing here GymMane can import';
+  String get nothingToImport => 'Nothing here beefit can import';
 
   @override
-  String get aiStepCopy => 'Copy the request. It carries your exercise list and the format GymMane reads.';
+  String get aiStepCopy => 'Copy the request. It carries your exercise list and the format beefit reads.';
 
   @override
   String get aiStepAsk => 'Paste it into any AI and say what you want: days per week, goal, how many weeks.';
@@ -3039,7 +3039,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get shareIntroBody =>
-      'Send it to your partner, a friend or your family. They get a small file that opens in GymMane and adds it in one tap, with its sets and weights.';
+      'Send it to your partner, a friend or your family. They get a small file that opens in beefit and adds it in one tap, with its sets and weights.';
 
   @override
   String get removedFromRoutine => 'Removed from the routine';
@@ -3189,7 +3189,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'It only reads your step count. It never reads anything else or writes to Health Connect.';
 
   @override
-  String get stepsInfoLocal => 'Your steps stay on your phone. GymMane never connects to the internet.';
+  String get stepsInfoLocal => 'Your steps stay on your phone. beefit never connects to the internet.';
 
   @override
   String get stepsInfoOff => 'Turn it off anytime in Settings or in Health Connect.';
@@ -4581,7 +4581,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nutritionAboutWhat =>
-      'A simple way to log meals, water, protein and supplements right next to your workouts. GymMane is a gym app first: Nutrition is here so you can keep everything in one place, not to replace a dedicated diet app.';
+      'A simple way to log meals, water, protein and supplements right next to your workouts. beefit is a gym app first: Nutrition is here so you can keep everything in one place, not to replace a dedicated diet app.';
 
   @override
   String get nutritionAboutScanTitle => 'No scanning, ever';
@@ -4595,7 +4595,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get nutritionAboutLocal =>
-      'More than 500 foods with photos come inside the app. You can add your own, change their photos and edit their values. It all stays on your phone, like the rest of GymMane.';
+      'More than 500 foods with photos come inside the app. You can add your own, change their photos and edit their values. It all stays on your phone, like the rest of beefit.';
 
   @override
   String get nutritionAboutBetaTitle => 'Still in beta';
@@ -4661,7 +4661,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get notifSuppTap => 'Tick it off in GymMane once you\'ve taken it.';
+  String get notifSuppTap => 'Tick it off in beefit once you\'ve taken it.';
 
   @override
   String get suppNoneToday => 'Nothing to take today.';
@@ -5550,7 +5550,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ladderHint =>
-      'Order the steps from easiest to hardest. When you do 3 sets of 8 two sessions in a row (5 on slow ones), GymMane offers the next step.';
+      'Order the steps from easiest to hardest. When you do 3 sets of 8 two sessions in a row (5 on slow ones), beefit offers the next step.';
 
   @override
   String get ladderBuiltIn =>
@@ -6531,13 +6531,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get supportThanksBody =>
-      'GymMane is free and always will be, with no ads and nothing hidden.\n\nIf it helps you train, buying me a coffee makes my day ☕\nAnd if you can\'t, no worries: a star on GitHub does too ⭐';
+      'beefit is free and always will be, with no ads and nothing hidden.\n\nIf it helps you train, buying me a coffee makes my day ☕\nAnd if you can\'t, no worries: a star on GitHub does too ⭐';
 
   @override
   String get perfSetting => 'Performance';
 
   @override
-  String get perfSheetHint => 'How much of your phone GymMane uses. You can change each part below.';
+  String get perfSheetHint => 'How much of your phone beefit uses. You can change each part below.';
 
   @override
   String get perfLite => 'Saver';
@@ -7073,7 +7073,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get autoProgressHint =>
-      'When you start a workout, GymMane fills in the next step for each exercise. With Add reps you add one rep per set up to 12, then the weight goes up and you start again at 8. You can still tune each exercise on its page.';
+      'When you start a workout, beefit fills in the next step for each exercise. With Add reps you add one rep per set up to 12, then the weight goes up and you start again at 8. You can still tune each exercise on its page.';
 
   @override
   String get noteFolders => 'Folders';

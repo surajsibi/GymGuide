@@ -185,7 +185,7 @@ class AlertsShowcase extends StatelessWidget {
               child: Icon(icon, size: 12, color: tone),
             ),
             const SizedBox(width: 8),
-            Text('GymMane', style: AppTheme.f(12, weight: FontWeight.w700, color: gc.textSecondary)),
+            Text('beefit', style: AppTheme.f(12, weight: FontWeight.w700, color: gc.textSecondary)),
             if (when.isNotEmpty)
               Flexible(
                 child: Text(' · $when',
@@ -405,7 +405,7 @@ class HomeExtrasShowcase extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final gc = context.gc;
-    const pass = GymPass(id: 'demo', name: 'GymMane Fit', code: 'GYMMANE-2026-0042', hue: 0);
+    const pass = GymPass(id: 'demo', name: 'beefit Fit', code: 'BEEFIT-2026-0042', hue: 0);
     final steps = _Tile(
       w: 150,
       h: 170,

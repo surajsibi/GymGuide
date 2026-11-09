@@ -1,0 +1,90 @@
+name: Build beefit download
+
+on:
+  push:
+    branches: [codex/beefit-download]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag
+        required: true
+        default: beefit-v2.1.0
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: beefit-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: '3.41.9'
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get --enforce-lockfile
+
+      - name: Analyze
+        run: flutter analyze --no-fatal-infos
+
+      - name: Test
+        run: flutter test
+
+      - name: Configure release signing
+        env:
+          KEYSTORE_BASE64: ${{ secrets.BEEFIT_KEYSTORE_BASE64 }}
+          SIGNING_PASSWORD: ${{ secrets.BEEFIT_SIGNING_PASSWORD }}
+        run: |
+          test -n "$KEYSTORE_BASE64"
+          test -n "$SIGNING_PASSWORD"
+          umask 077
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > android/app/beefit-release.keystore
+          printf 'storeFile=beefit-release.keystore\nstoreType=PKCS12\nkeyAlias=beefit\nstorePassword=%s\nkeyPassword=%s\n' "$SIGNING_PASSWORD" "$SIGNING_PASSWORD" > android/key.properties
+
+      - name: Build installable APK
+        run: flutter build apk --release
+
+      - name: Verify APK and prepare download
+        run: |
+          mkdir -p release
+          cp build/app/outputs/flutter-apk/app-release.apk release/beefit.apk
+          BUILD_TOOLS=$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -n 1)
+          "$BUILD_TOOLS/apksigner" verify --verbose --print-certs release/beefit.apk
+          "$BUILD_TOOLS/aapt" dump badging release/beefit.apk > release/apk-info.txt
+          grep -F "application-label:'beefit'" release/apk-info.txt
+          cd release
+          sha256sum beefit.apk > beefit.apk.sha256
+
+      - name: Prepare draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag || 'beefit-v2.1.0' }}
+        run: |
+          [[ "$RELEASE_TAG" =~ ^beefit-v[0-9]+\.[0-9]+\.[0-9]+([.-][A-Za-z0-9]+)*$ ]]
+          cat > release/notes.md <<'EOF'
+          Download beefit.apk on your Android phone and open it to install beefit.
+
+          Requires Android 7.0 or newer. The APK supports ARM 32-bit, ARM 64-bit and x86-64 devices.
+
+          Based on GymMane by InlitX. Source code for this build is available from the source archives attached to this release. Code is GPL-3.0-only with the attribution term in ADDITIONAL_TERMS.md; exercise artwork retains its original license.
+          EOF
+          gh release create "$RELEASE_TAG" release/beefit.apk release/beefit.apk.sha256 release/apk-info.txt --draft --target "$GITHUB_SHA" --title "beefit 2.1.0" --notes-file release/notes.md
+
+      - name: Remove temporary signing files
+        if: always()
+        run: rm -f android/key.properties android/app/beefit-release.keystore
