@@ -1,3 +1,13 @@
+# beefit
+
+This repository builds beefit, an Android workout log based on GymMane by InlitX.
+The renamed app is distributed through the **Build beefit download** workflow.
+Its signed APK is named `beefit.apk`; source archives accompany each release.
+
+The original project documentation and credits follow.
+
+---
+
 <div align="center">
 
 <img src="docs/screenshots/banner-en.png" alt="GymMane — Lift. Log it. Grow." width="860" />

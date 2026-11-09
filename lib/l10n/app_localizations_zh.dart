@@ -1358,7 +1358,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get importBackup => '导入备份';
 
   @override
-  String get importHint => '选择从 GymMane 导出的 .json 备份文件。这将会覆盖你当前的数据。';
+  String get importHint => '选择从 beefit 导出的 .json 备份文件。这将会覆盖你当前的数据。';
 
   @override
   String get import => '导入';
@@ -1400,7 +1400,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get aboutGymmane => '关于 GymMane';
+  String get aboutGymmane => '关于 beefit';
 
   @override
   String get yourProfile => '个人资料';
@@ -2137,7 +2137,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get aiRoutine => '用 AI 生成计划';
 
   @override
-  String get aiIntro => 'GymMane 不会和任何 AI 通信。你把动作清单导出，粘贴给你惯用的助手，再把它的回答导回来。手机不会自己往外发任何东西。';
+  String get aiIntro => 'beefit 不会和任何 AI 通信。你把动作清单导出，粘贴给你惯用的助手，再把它的回答导回来。手机不会自己往外发任何东西。';
 
   @override
   String aiMissing(int n) {
@@ -2157,7 +2157,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get awardFirstStepName => '第一步';
 
   @override
-  String get awardFirstStepLine => '欢迎来到 GymMane，这枚是送你的。';
+  String get awardFirstStepLine => '欢迎来到 beefit，这枚是送你的。';
 
   @override
   String get awardFirstWorkoutName => '第一次训练';
@@ -2736,14 +2736,14 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String shareMessage(String name) {
-    return '$name，用 GymMane 打开这个文件即可添加。';
+    return '$name，用 beefit 打开这个文件即可添加。';
   }
 
   @override
   String get importRoutines => '导入训练计划';
 
   @override
-  String get importPasteHint => '在这里粘贴训练计划：GymMane 分享的内容、AI 的回答、JSON 或 CSV 都可以。';
+  String get importPasteHint => '在这里粘贴训练计划：beefit 分享的内容、AI 的回答、JSON 或 CSV 都可以。';
 
   @override
   String get pasteAction => '粘贴';
@@ -2768,10 +2768,10 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get nothingToImport => '这里没有 GymMane 能导入的内容';
+  String get nothingToImport => '这里没有 beefit 能导入的内容';
 
   @override
-  String get aiStepCopy => '复制请求。它包含你的动作列表和 GymMane 能读取的格式。';
+  String get aiStepCopy => '复制请求。它包含你的动作列表和 beefit 能读取的格式。';
 
   @override
   String get aiStepAsk => '把它粘贴到任意 AI 里，说出你的需求：每周几天、目标、几周。';
@@ -2918,7 +2918,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get shareIntroTitle => '分享这个计划';
 
   @override
-  String get shareIntroBody => '发给你的伴侣、朋友或家人。他们会收到一个小文件，用 GymMane 打开，一点就能加入，组数和重量都在。';
+  String get shareIntroBody => '发给你的伴侣、朋友或家人。他们会收到一个小文件，用 beefit 打开，一点就能加入，组数和重量都在。';
 
   @override
   String get removedFromRoutine => '已从计划中移除';
@@ -3066,7 +3066,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get stepsInfoRead => '只读取步数。不读取其他任何内容，也不会写入 Health Connect。';
 
   @override
-  String get stepsInfoLocal => '步数只保存在手机上。GymMane 从不联网。';
+  String get stepsInfoLocal => '步数只保存在手机上。beefit 从不联网。';
 
   @override
   String get stepsInfoOff => '可随时在设置或 Health Connect 中关闭。';
@@ -4423,7 +4423,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get nutritionAboutWhat =>
-      '一种在训练旁边记录饮食、饮水、蛋白质和补剂的简单方式。GymMane 首先是一款健身房应用：饮食功能是为了让你把一切放在一个地方，而不是取代专门的饮食应用。';
+      '一种在训练旁边记录饮食、饮水、蛋白质和补剂的简单方式。beefit 首先是一款健身房应用：饮食功能是为了让你把一切放在一个地方，而不是取代专门的饮食应用。';
 
   @override
   String get nutritionAboutScanTitle => '没有扫码，永远不会有';
@@ -4436,7 +4436,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get nutritionAboutLocalTitle => '一切都在你的手机上';
 
   @override
-  String get nutritionAboutLocal => '应用内置 500 多种带图片的食物。你可以添加自己的食物、更换图片、编辑数值。和 GymMane 的其他部分一样，一切都留在你的手机上。';
+  String get nutritionAboutLocal => '应用内置 500 多种带图片的食物。你可以添加自己的食物、更换图片、编辑数值。和 beefit 的其他部分一样，一切都留在你的手机上。';
 
   @override
   String get nutritionAboutBetaTitle => '仍是测试版';
@@ -4502,7 +4502,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get notifSuppTap => 'Tick it off in GymMane once you\'ve taken it.';
+  String get notifSuppTap => 'Tick it off in beefit once you\'ve taken it.';
 
   @override
   String get suppNoneToday => 'Nothing to take today.';
@@ -5377,7 +5377,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get ladderTitle => '进阶';
 
   @override
-  String get ladderHint => '按从易到难排列步骤。连续两次训练完成 3 组 8 次（慢速动作 5 次）后，GymMane 会建议下一步。';
+  String get ladderHint => '按从易到难排列步骤。连续两次训练完成 3 组 8 次（慢速动作 5 次）后，beefit 会建议下一步。';
 
   @override
   String get ladderBuiltIn => '基于应用自带的进阶。添加、删除或重新排序步骤后，它就属于此计划。';
@@ -6315,13 +6315,13 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get supportThanksBody =>
-      'GymMane 永远免费，没有广告，也没有任何隐藏收费。\n\n如果它对你的训练有帮助，请我喝杯咖啡会让我开心一整天 ☕\n如果不方便也没关系：在 GitHub 上点一颗星也一样 ⭐';
+      'beefit 永远免费，没有广告，也没有任何隐藏收费。\n\n如果它对你的训练有帮助，请我喝杯咖啡会让我开心一整天 ☕\n如果不方便也没关系：在 GitHub 上点一颗星也一样 ⭐';
 
   @override
   String get perfSetting => 'Performance';
 
   @override
-  String get perfSheetHint => 'How much of your phone GymMane uses. You can change each part below.';
+  String get perfSheetHint => 'How much of your phone beefit uses. You can change each part below.';
 
   @override
   String get perfLite => 'Saver';
@@ -6837,7 +6837,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get autoProgressHint =>
-      'When you start a workout, GymMane fills in the next step for each exercise. With Add reps you add one rep per set up to 12, then the weight goes up and you start again at 8. You can still tune each exercise on its page.';
+      'When you start a workout, beefit fills in the next step for each exercise. With Add reps you add one rep per set up to 12, then the weight goes up and you start again at 8. You can still tune each exercise on its page.';
 
   @override
   String get noteFolders => 'Folders';
@@ -8601,7 +8601,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get importBackup => '匯入備份';
 
   @override
-  String get importHint => '選擇從 GymMane 匯出的 .zip 備份（或舊版 .json）。目前資料（包括媒體）將被取代。';
+  String get importHint => '選擇從 beefit 匯出的 .zip 備份（或舊版 .json）。目前資料（包括媒體）將被取代。';
 
   @override
   String get import => '匯入';
@@ -8643,7 +8643,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   }
 
   @override
-  String get aboutGymmane => '關於 GymMane';
+  String get aboutGymmane => '關於 beefit';
 
   @override
   String get yourProfile => '你的個人檔案';
@@ -9238,7 +9238,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get planNothing => '此檔案中的動作都與你的資料庫不符';
 
   @override
-  String get planFailed => '這個檔案不是 GymMane 能讀取的課表';
+  String get planFailed => '這個檔案不是 beefit 能讀取的課表';
 
   @override
   String get routineGroup => '群組';
@@ -9383,7 +9383,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get aiRoutine => 'AI 課表';
 
   @override
-  String get aiIntro => 'GymMane 絕不直接與 AI 通訊。你先匯出動作清單，貼到你已在使用的 AI 助手，再把回覆匯入。任何資料都不會自行離開手機。';
+  String get aiIntro => 'beefit 絕不直接與 AI 通訊。你先匯出動作清單，貼到你已在使用的 AI 助手，再把回覆匯入。任何資料都不會自行離開手機。';
 
   @override
   String aiMissing(int n) {
@@ -9409,7 +9409,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get awardFirstStepName => '第一步';
 
   @override
-  String get awardFirstStepLine => '歡迎來到 GymMane。這個送給你。';
+  String get awardFirstStepLine => '歡迎來到 beefit。這個送給你。';
 
   @override
   String get awardFirstWorkoutName => '第一次訓練';
@@ -9994,14 +9994,14 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String shareMessage(String name) {
-    return '$name，用 GymMane 開啟檔案即可加入。';
+    return '$name，用 beefit 開啟檔案即可加入。';
   }
 
   @override
   String get importRoutines => '匯入課表';
 
   @override
-  String get importPasteHint => '在這裡貼上課表：從 GymMane 分享的、AI 的回答、JSON 或 CSV。';
+  String get importPasteHint => '在這裡貼上課表：從 beefit 分享的、AI 的回答、JSON 或 CSV。';
 
   @override
   String get pasteAction => '貼上';
@@ -10028,10 +10028,10 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   }
 
   @override
-  String get nothingToImport => '這裡沒有 GymMane 能匯入的內容';
+  String get nothingToImport => '這裡沒有 beefit 能匯入的內容';
 
   @override
-  String get aiStepCopy => '複製這段請求。裡面有你的動作清單和 GymMane 讀得懂的格式。';
+  String get aiStepCopy => '複製這段請求。裡面有你的動作清單和 beefit 讀得懂的格式。';
 
   @override
   String get aiStepAsk => '貼到任何 AI，說出你的需求：每週幾天、目標、幾週。';
@@ -10178,7 +10178,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get shareIntroTitle => '分享這個課表';
 
   @override
-  String get shareIntroBody => '傳給你的伴侶、朋友或家人。他們會收到一個小檔案，用 GymMane 開啟，一點就能加入，組數和重量都在。';
+  String get shareIntroBody => '傳給你的伴侶、朋友或家人。他們會收到一個小檔案，用 beefit 開啟，一點就能加入，組數和重量都在。';
 
   @override
   String get removedFromRoutine => '已從課表移除';
@@ -10326,7 +10326,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get stepsInfoRead => '只讀取步數。不讀取其他任何內容，也不會寫入 Health Connect。';
 
   @override
-  String get stepsInfoLocal => '步數只保存在手機上。GymMane 從不連網。';
+  String get stepsInfoLocal => '步數只保存在手機上。beefit 從不連網。';
 
   @override
   String get stepsInfoOff => '可隨時在設定或 Health Connect 中關閉。';
@@ -11590,7 +11590,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get nutritionAboutWhat =>
-      '一種在訓練旁邊記錄飲食、飲水、蛋白質和補充品的簡單方式。GymMane 首先是一款健身房 App：飲食功能是為了讓你把一切放在同一個地方，而不是取代專門的飲食 App。';
+      '一種在訓練旁邊記錄飲食、飲水、蛋白質和補充品的簡單方式。beefit 首先是一款健身房 App：飲食功能是為了讓你把一切放在同一個地方，而不是取代專門的飲食 App。';
 
   @override
   String get nutritionAboutScanTitle => '沒有掃描，永遠不會有';
@@ -11603,7 +11603,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get nutritionAboutLocalTitle => '一切都在你的手機上';
 
   @override
-  String get nutritionAboutLocal => 'App 內建 500 多種附照片的食物。你可以新增自己的食物、更換照片、編輯數值。和 GymMane 的其他部分一樣，一切都留在你的手機上。';
+  String get nutritionAboutLocal => 'App 內建 500 多種附照片的食物。你可以新增自己的食物、更換照片、編輯數值。和 beefit 的其他部分一樣，一切都留在你的手機上。';
 
   @override
   String get nutritionAboutBetaTitle => '仍是測試版';
@@ -12207,7 +12207,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
   String get ladderTitle => '進階';
 
   @override
-  String get ladderHint => '依由易到難排列步驟。連續兩次訓練完成 3 組 8 次（慢速動作 5 次）後，GymMane 會建議下一步。';
+  String get ladderHint => '依由易到難排列步驟。連續兩次訓練完成 3 組 8 次（慢速動作 5 次）後，beefit 會建議下一步。';
 
   @override
   String get ladderBuiltIn => '以應用程式內建的進階為基礎。新增、刪除或重新排序步驟後，就屬於此課表。';
@@ -12981,7 +12981,7 @@ class AppLocalizationsZhHant extends AppLocalizationsZh {
 
   @override
   String get supportThanksBody =>
-      'GymMane 永遠免費，沒有廣告，也沒有任何隱藏收費。\n\n如果它對你的訓練有幫助，請我喝杯咖啡會讓我開心一整天 ☕\n如果不方便也沒關係：在 GitHub 上點一顆星也一樣 ⭐';
+      'beefit 永遠免費，沒有廣告，也沒有任何隱藏收費。\n\n如果它對你的訓練有幫助，請我喝杯咖啡會讓我開心一整天 ☕\n如果不方便也沒關係：在 GitHub 上點一顆星也一樣 ⭐';
 
   @override
   String recapPull(String month) {

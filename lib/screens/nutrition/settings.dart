@@ -362,7 +362,7 @@ Future<void> showNutritionAbout(BuildContext context) => _sheet<void>(context, (
           icon: PhosphorIconsBold.githubLogo,
           onTap: () async {
             try {
-              await launchUrl(Uri.parse('https://github.com/InlitX/GymMane/issues'), mode: LaunchMode.externalApplication);
+              await launchUrl(Uri.parse('https://github.com/surajsibi/GymGuide/issues'), mode: LaunchMode.externalApplication);
             } catch (_) {}
           },
         ),

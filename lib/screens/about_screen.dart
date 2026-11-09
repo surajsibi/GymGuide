@@ -12,8 +12,9 @@ import '../widgets/ui_kit.dart';
 
 const kAppVersion = '2.1.0';
 const _kAuthor = 'InlitX';
+const _kAttribution = 'Based on GymMane by InlitX';
 const _kAuthorUrl = 'https://github.com/InlitX';
-const _kRepoUrl = 'https://github.com/InlitX/GymMane';
+const _kRepoUrl = 'https://github.com/surajsibi/GymGuide';
 const _kKofiUrl = 'https://ko-fi.com/inlitx';
 
 class AboutScreen extends StatelessWidget {
@@ -60,6 +61,10 @@ class AboutScreen extends StatelessWidget {
             Text(t.aboutBlurb,
                 textAlign: TextAlign.center,
                 style: AppTheme.f(12.5, weight: FontWeight.w500, color: gc.textTertiary, height: 1.6)),
+            const SizedBox(height: 8),
+            Text(_kAttribution,
+                textAlign: TextAlign.center,
+                style: AppTheme.f(12, weight: FontWeight.w500, color: gc.textTertiary, height: 1.6)),
             const SizedBox(height: 20),
             _credits(gc),
           ]),
@@ -115,7 +120,7 @@ class AboutScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('GymMane',
+                Text('beefit',
                     style: AppTheme.f(33, weight: FontWeight.w800, color: gc.text, letterSpacing: -0.5)),
                 const SizedBox(height: 10),
                 Container(
@@ -185,7 +190,7 @@ class AboutScreen extends StatelessWidget {
   Widget _credits(GymColors gc) {
     final rows = <(IconData, String, String, String, Color?)>[
       (PhosphorIconsFill.heart, t.madeWithLoveBy, _kAuthor, _kAuthorUrl, gc.accent),
-      (PhosphorIconsRegular.githubLogo, t.sourceCode, 'InlitX/GymMane', _kRepoUrl, null),
+      (PhosphorIconsRegular.githubLogo, t.sourceCode, 'surajsibi/GymGuide', _kRepoUrl, null),
       (PhosphorIconsRegular.coffee, t.buyCoffee, 'ko-fi.com/inlitx', _kKofiUrl, null),
     ];
     return Container(

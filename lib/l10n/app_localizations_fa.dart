@@ -3178,7 +3178,7 @@ class AppLocalizationsFa extends AppLocalizations {
       'فقط تعداد قدم‌هایت را می‌خواند. هرگز چیز دیگری نمی‌خواند و در Health Connect نمی‌نویسد.';
 
   @override
-  String get stepsInfoLocal => 'قدم‌هایت روی گوشی می‌مانند. GymMane هرگز به اینترنت وصل نمی‌شود.';
+  String get stepsInfoLocal => 'قدم‌هایت روی گوشی می‌مانند. beefit هرگز به اینترنت وصل نمی‌شود.';
 
   @override
   String get stepsInfoOff => 'هر وقت خواستی از تنظیمات یا Health Connect خاموشش کن.';
@@ -4575,7 +4575,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get nutritionAboutWhat =>
-      'راهی ساده برای ثبت وعده‌ها، آب، پروتئین و مکمل‌ها کنار تمرین‌هایت. GymMane پیش از هر چیز یک اپ باشگاه است: تغذیه اینجاست تا همه‌چیز در یک جا باشد، نه اینکه جای یک اپ رژیم را بگیرد.';
+      'راهی ساده برای ثبت وعده‌ها، آب، پروتئین و مکمل‌ها کنار تمرین‌هایت. beefit پیش از هر چیز یک اپ باشگاه است: تغذیه اینجاست تا همه‌چیز در یک جا باشد، نه اینکه جای یک اپ رژیم را بگیرد.';
 
   @override
   String get nutritionAboutScanTitle => 'بدون اسکنر، هرگز';
@@ -4589,7 +4589,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get nutritionAboutLocal =>
-      'اپ بیش از ۵۰۰ غذا با عکس دارد. می‌توانی غذاهای خودت را اضافه کنی، عکس‌هایشان را عوض کنی و مقادیرشان را ویرایش کنی. همه‌چیز روی گوشی‌ات می‌ماند، مثل بقیه GymMane.';
+      'اپ بیش از ۵۰۰ غذا با عکس دارد. می‌توانی غذاهای خودت را اضافه کنی، عکس‌هایشان را عوض کنی و مقادیرشان را ویرایش کنی. همه‌چیز روی گوشی‌ات می‌ماند، مثل بقیه beefit.';
 
   @override
   String get nutritionAboutBetaTitle => 'هنوز آزمایشی';
@@ -4655,7 +4655,7 @@ class AppLocalizationsFa extends AppLocalizations {
   }
 
   @override
-  String get notifSuppTap => 'Tick it off in GymMane once you\'ve taken it.';
+  String get notifSuppTap => 'Tick it off in beefit once you\'ve taken it.';
 
   @override
   String get suppNoneToday => 'Nothing to take today.';
@@ -5543,7 +5543,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get ladderHint =>
-      'مراحل را از آسان به سخت مرتب کن. وقتی دو جلسه پشت سر هم ۳ ست ۸تایی بزنی (در حرکات آهسته ۵)، GymMane مرحله بعد را پیشنهاد می‌دهد.';
+      'مراحل را از آسان به سخت مرتب کن. وقتی دو جلسه پشت سر هم ۳ ست ۸تایی بزنی (در حرکات آهسته ۵)، beefit مرحله بعد را پیشنهاد می‌دهد.';
 
   @override
   String get ladderBuiltIn =>
@@ -6507,13 +6507,13 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get supportThanksBody =>
-      'GymMane رایگان است و همیشه رایگان می‌ماند، بدون تبلیغ و بدون چیز پنهان.\n\nاگر در تمرین کمکت می‌کند، مهمان کردن من به یک قهوه روزم را می‌سازد ☕\nو اگر نمی‌توانی، اشکالی ندارد: یک ستاره در GitHub هم کافی است ⭐';
+      'beefit رایگان است و همیشه رایگان می‌ماند، بدون تبلیغ و بدون چیز پنهان.\n\nاگر در تمرین کمکت می‌کند، مهمان کردن من به یک قهوه روزم را می‌سازد ☕\nو اگر نمی‌توانی، اشکالی ندارد: یک ستاره در GitHub هم کافی است ⭐';
 
   @override
   String get perfSetting => 'Performance';
 
   @override
-  String get perfSheetHint => 'How much of your phone GymMane uses. You can change each part below.';
+  String get perfSheetHint => 'How much of your phone beefit uses. You can change each part below.';
 
   @override
   String get perfLite => 'Saver';
@@ -7039,7 +7039,7 @@ class AppLocalizationsFa extends AppLocalizations {
 
   @override
   String get autoProgressHint =>
-      'When you start a workout, GymMane fills in the next step for each exercise. With Add reps you add one rep per set up to 12, then the weight goes up and you start again at 8. You can still tune each exercise on its page.';
+      'When you start a workout, beefit fills in the next step for each exercise. With Add reps you add one rep per set up to 12, then the weight goes up and you start again at 8. You can still tune each exercise on its page.';
 
   @override
   String get noteFolders => 'Folders';

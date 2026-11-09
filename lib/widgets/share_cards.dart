@@ -45,7 +45,7 @@ class ShareCard extends StatelessWidget {
         children: [
           Row(
             children: [
-              Text('GymMane', style: AppTheme.f(14, weight: FontWeight.w800, color: gc.text, letterSpacing: -0.2)),
+              Text('beefit', style: AppTheme.f(14, weight: FontWeight.w800, color: gc.text, letterSpacing: -0.2)),
               const Spacer(),
               Text(t.shortDateYear(DateTime.now()),
                   style: AppTheme.f(11, weight: FontWeight.w600, color: gc.textTertiary)),
